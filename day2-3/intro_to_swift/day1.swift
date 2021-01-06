@@ -1,6 +1,8 @@
 //day1.swift: simple types
 //Jimmy Zhang @ 1/3/2021
 
+import UIKit
+
 //variables
 var str = "Hello"  //initialize variable (type String)
 str = "Bye" //change variable content
@@ -33,7 +35,7 @@ var str3 = "Your score was \(score)" //returns "Your score was 50"
 let taylor = "swift" //cannot change value
 
 //type annotations
-let str = "Hello, world" //inferred String type (type inference)
+let str4 = "Hello, world" //inferred String type (type inference)
 //explicit data type declaration
 let album: String = "Reputation"
 let year: Int = 1989
