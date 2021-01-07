@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC69D21825A56565007D0D12 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69D21725A56565007D0D12 /* WeSplitApp.swift */; };
-		EC69D21A25A56565007D0D12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69D21925A56565007D0D12 /* ContentView.swift */; };
-		EC69D21C25A56568007D0D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC69D21B25A56568007D0D12 /* Assets.xcassets */; };
-		EC69D21F25A56568007D0D12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC69D21E25A56568007D0D12 /* Preview Assets.xcassets */; };
+		ECDA8D0925A682E6004BABBB /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA8D0825A682E6004BABBB /* GuessTheFlagApp.swift */; };
+		ECDA8D0B25A682E6004BABBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA8D0A25A682E6004BABBB /* ContentView.swift */; };
+		ECDA8D0D25A682EB004BABBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA8D0C25A682EB004BABBB /* Assets.xcassets */; };
+		ECDA8D1025A682EB004BABBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA8D0F25A682EB004BABBB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC69D21425A56565007D0D12 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC69D21725A56565007D0D12 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		EC69D21925A56565007D0D12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EC69D21B25A56568007D0D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC69D21E25A56568007D0D12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EC69D22025A56568007D0D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDA8D0525A682E6004BABBB /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDA8D0825A682E6004BABBB /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
+		ECDA8D0A25A682E6004BABBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECDA8D0C25A682EB004BABBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDA8D0F25A682EB004BABBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECDA8D1125A682EB004BABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC69D21125A56565007D0D12 /* Frameworks */ = {
+		ECDA8D0225A682E6004BABBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC69D20B25A56565007D0D12 = {
+		ECDA8CFC25A682E6004BABBB = {
 			isa = PBXGroup;
 			children = (
-				EC69D21625A56565007D0D12 /* WeSplit */,
-				EC69D21525A56565007D0D12 /* Products */,
+				ECDA8D0725A682E6004BABBB /* GuessTheFlag */,
+				ECDA8D0625A682E6004BABBB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC69D21525A56565007D0D12 /* Products */ = {
+		ECDA8D0625A682E6004BABBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC69D21425A56565007D0D12 /* WeSplit.app */,
+				ECDA8D0525A682E6004BABBB /* GuessTheFlag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC69D21625A56565007D0D12 /* WeSplit */ = {
+		ECDA8D0725A682E6004BABBB /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
-				EC69D21725A56565007D0D12 /* WeSplitApp.swift */,
-				EC69D21925A56565007D0D12 /* ContentView.swift */,
-				EC69D21B25A56568007D0D12 /* Assets.xcassets */,
-				EC69D22025A56568007D0D12 /* Info.plist */,
-				EC69D21D25A56568007D0D12 /* Preview Content */,
+				ECDA8D0825A682E6004BABBB /* GuessTheFlagApp.swift */,
+				ECDA8D0A25A682E6004BABBB /* ContentView.swift */,
+				ECDA8D0C25A682EB004BABBB /* Assets.xcassets */,
+				ECDA8D1125A682EB004BABBB /* Info.plist */,
+				ECDA8D0E25A682EB004BABBB /* Preview Content */,
 			);
-			path = WeSplit;
+			path = GuessTheFlag;
 			sourceTree = "<group>";
 		};
-		EC69D21D25A56568007D0D12 /* Preview Content */ = {
+		ECDA8D0E25A682EB004BABBB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EC69D21E25A56568007D0D12 /* Preview Assets.xcassets */,
+				ECDA8D0F25A682EB004BABBB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC69D21325A56565007D0D12 /* WeSplit */ = {
+		ECDA8D0425A682E6004BABBB /* GuessTheFlag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC69D22325A56568007D0D12 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = ECDA8D1425A682EB004BABBB /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
 			buildPhases = (
-				EC69D21025A56565007D0D12 /* Sources */,
-				EC69D21125A56565007D0D12 /* Frameworks */,
-				EC69D21225A56565007D0D12 /* Resources */,
+				ECDA8D0125A682E6004BABBB /* Sources */,
+				ECDA8D0225A682E6004BABBB /* Frameworks */,
+				ECDA8D0325A682E6004BABBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WeSplit;
-			productName = WeSplit;
-			productReference = EC69D21425A56565007D0D12 /* WeSplit.app */;
+			name = GuessTheFlag;
+			productName = GuessTheFlag;
+			productReference = ECDA8D0525A682E6004BABBB /* GuessTheFlag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EC69D20C25A56565007D0D12 /* Project object */ = {
+		ECDA8CFD25A682E6004BABBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					EC69D21325A56565007D0D12 = {
+					ECDA8D0425A682E6004BABBB = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = EC69D20F25A56565007D0D12 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = ECDA8D0025A682E6004BABBB /* Build configuration list for PBXProject "GuessTheFlag" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = EC69D20B25A56565007D0D12;
-			productRefGroup = EC69D21525A56565007D0D12 /* Products */;
+			mainGroup = ECDA8CFC25A682E6004BABBB;
+			productRefGroup = ECDA8D0625A682E6004BABBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC69D21325A56565007D0D12 /* WeSplit */,
+				ECDA8D0425A682E6004BABBB /* GuessTheFlag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC69D21225A56565007D0D12 /* Resources */ = {
+		ECDA8D0325A682E6004BABBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC69D21F25A56568007D0D12 /* Preview Assets.xcassets in Resources */,
-				EC69D21C25A56568007D0D12 /* Assets.xcassets in Resources */,
+				ECDA8D1025A682EB004BABBB /* Preview Assets.xcassets in Resources */,
+				ECDA8D0D25A682EB004BABBB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC69D21025A56565007D0D12 /* Sources */ = {
+		ECDA8D0125A682E6004BABBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC69D21A25A56565007D0D12 /* ContentView.swift in Sources */,
-				EC69D21825A56565007D0D12 /* WeSplitApp.swift in Sources */,
+				ECDA8D0B25A682E6004BABBB /* ContentView.swift in Sources */,
+				ECDA8D0925A682E6004BABBB /* GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EC69D22125A56568007D0D12 /* Debug */ = {
+		ECDA8D1225A682EB004BABBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		EC69D22225A56568007D0D12 /* Release */ = {
+		ECDA8D1325A682EB004BABBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,42 +262,42 @@
 			};
 			name = Release;
 		};
-		EC69D22425A56568007D0D12 /* Debug */ = {
+		ECDA8D1525A682EB004BABBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = GuessTheFlag/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.zhang.jimmy.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = me.zhang.jimmy.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EC69D22525A56568007D0D12 /* Release */ = {
+		ECDA8D1625A682EB004BABBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = GuessTheFlag/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.zhang.jimmy.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = me.zhang.jimmy.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC69D20F25A56565007D0D12 /* Build configuration list for PBXProject "WeSplit" */ = {
+		ECDA8D0025A682E6004BABBB /* Build configuration list for PBXProject "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC69D22125A56568007D0D12 /* Debug */,
-				EC69D22225A56568007D0D12 /* Release */,
+				ECDA8D1225A682EB004BABBB /* Debug */,
+				ECDA8D1325A682EB004BABBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC69D22325A56568007D0D12 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		ECDA8D1425A682EB004BABBB /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC69D22425A56568007D0D12 /* Debug */,
-				EC69D22525A56568007D0D12 /* Release */,
+				ECDA8D1525A682EB004BABBB /* Debug */,
+				ECDA8D1625A682EB004BABBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EC69D20C25A56565007D0D12 /* Project object */;
+	rootObject = ECDA8CFD25A682E6004BABBB /* Project object */;
 }
